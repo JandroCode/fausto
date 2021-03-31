@@ -456,6 +456,7 @@ span:hover {
   color: white;
   padding: 13px;
   font-weight: bold;
+  border: none;
 }
 
 .inputUno {
