@@ -1,0 +1,32 @@
+
+header{
+    background-color:rgb(26,26,26);
+    height: 245px;
+   
+    .container{
+        .title{
+            display: flex;
+            flex-direction: column;
+            padding: 50px 25%;
+
+            span{
+                margin: 10px 25px;
+            }
+        }
+        width: 80vw;
+     
+        h1{ 
+            color: rgb(51,122,43);
+            font-size: 2.6rem;
+        }
+        span{
+            color: white;
+            font-size: 0.9rem;
+        }
+    }
+}
+
+
+
+
+

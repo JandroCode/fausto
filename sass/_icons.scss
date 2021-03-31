@@ -1,0 +1,83 @@
+.icons-container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4,20%);
+    grid-template-areas: 
+        "primercontainer segundocontainer tercercontainer cuartocontainer"
+    ;
+    justify-content: center;
+    align-items: center;
+
+    h3{
+        text-align: center;
+        margin-bottom: 20px;
+        font-family: sans-serif;
+        
+    }
+    p{
+        text-align: center;
+        font-family: sans-serif;
+        i{
+            font-size: 2.5rem;
+        }
+       
+    }
+
+    .info-icon{
+        font-size: .9rem;
+    }
+
+   
+}
+
+.primer-container{
+    grid-area: primercontainer;
+  
+
+}
+.segundo-container{
+    grid-area: segundocontainer;
+}
+
+.tercer-container{
+    grid-area: tercercontainer;
+}
+
+.cuarto-container{
+    grid-area: cuartocontainer;
+}
+
+i{
+    color: rgb(51,122,43);
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+
+
+@media(max-width:770px){
+    .icons-container{
+
+        i{
+            font-size: 3.5rem;
+        }
+        
+        grid-template-columns: 90vw;
+        grid-template-areas: 
+            "primercontainer"
+            "segundocontainer"
+            "tercercontainer"
+            "cuartocontainer"
+        ;
+        .segundo-container,.tercer-container , .cuarto-container{
+            padding-top: 60px;
+        }
+    }
+  
+}
+
+
+
+

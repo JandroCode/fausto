@@ -1,0 +1,29 @@
+.central-img-container{
+    position: absolute;
+    top: 180px;
+    left: 17%;
+
+
+    img{
+        display: block;
+        width: 60vw;
+        height: 40vh;
+        border-radius: 10px;
+        border: 1rem solid white;
+        object-fit: cover;
+    }
+}
+
+@media(max-width:1200px){
+    .central-img-container{
+        img{
+            width: 60vw;
+            height: 100%;
+
+        }
+    }
+
+}
+
+
+

@@ -1,0 +1,63 @@
+.leyenda-container{
+    margin-top: 1%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 400px 0 30px;
+    width: 50vw;
+
+    h2{
+        text-align: center;
+        font-size: 2rem;
+        font-family: sans-serif;
+    }
+
+    p{
+        margin-top: 2%;
+        font-size: 1.8rem;
+        text-align: center;
+        font-family: sans-serif;
+    }
+ 
+    hr{
+        margin:10px auto;
+        width: 40%;
+        border: .5px solid rgb(51,122,43); 
+    }
+}
+
+@media(max-width:1720px){
+    .leyenda-container{
+        margin-top: 20%;
+        padding-top: 20%;
+    
+    }
+}
+
+@media(max-width:700px){
+    .leyenda-container{
+        width: 70vw;
+        hr{
+            width: 70%;
+        }
+      
+    }
+}
+
+@media(max-width:500px){
+    .leyenda-container{
+        hr{
+            width: 90%;
+            margin-bottom: 30px;
+        }
+        p{
+            font-size: 1.5rem;
+        }
+      
+    }
+
+}
+
+
+
+
+

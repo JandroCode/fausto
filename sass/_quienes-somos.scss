@@ -1,0 +1,159 @@
+.quienes-somos-container{
+    margin: 0 auto;
+    padding: 10px 0 30px;
+    width: 50vw;
+
+
+    h2{
+        margin-top: 10%;
+        text-align: center;
+        font-size: 2rem;
+        font-family: sans-serif;
+       
+    }
+
+    p{
+        margin-top: 4%;
+        font-size: 1.8rem;
+        text-align: center;
+        font-family: sans-serif;
+        
+        
+    }
+ 
+    hr{
+        margin:10px auto;
+        width: 40%;
+        border: .5px solid rgb(51,122,43); 
+    }
+
+
+}
+
+.quienes-somos-info-container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    grid-template-columns: repeat(2, 40%);
+    grid-template-areas:
+                 "primercontainer segundocontainer"
+    ;
+
+     small{
+        font-size: 1rem;
+        font-weight: 500;
+        font-family: sans-serif;
+       
+       
+
+    }
+}
+
+.primercontainer{
+    grid-area: primercontainer;
+    p{
+        text-align: center;
+        color: rgb(61, 56, 56);
+    }
+
+    .info-quienes-somos{
+        margin-top: 30px;
+        text-align: justify;
+        font-family: sans-serif;
+        
+    }
+    padding: 20px;
+}
+
+.segundocontainer{
+    grid-area: segundocontainer;
+    p{
+        text-align: center;
+        font-family: sans-serif;
+        color: rgb(61, 56, 56);
+        
+    }
+    padding: 20px;
+
+    
+    .info-quienes-somos{
+        margin-top: 30px;
+        text-align: justify; 
+    }
+
+    h2{
+        margin-top: 30px;
+        font-family: sans-serif;
+        text-align: center;
+    }
+    h3{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-family: sans-serif;
+    }
+    padding: 20px;
+    img{
+        margin-top: 65px;
+    }
+}
+
+.caja-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(207, 197, 197);
+    border-radius: 3px;
+    padding: 8px;
+ 
+ 
+    
+}
+
+.caja-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(207, 197, 197);
+   
+
+    #mas{
+       
+        font-size: 1.8rem;
+        margin-left: 10px;
+    }
+    #menos{
+        font-size: 1.8rem;
+        margin-left: 10px;
+    }
+    
+}
+
+ul{
+    li{
+        margin-left: 20px;
+        font-family: sans-serif;
+        color: rgb(61, 56, 56);
+    }
+}
+
+span:hover{
+    cursor: pointer;
+}
+
+@media(max-width:770px){
+    .quienes-somos-info-container{
+        grid-template-columns: 90vw;
+        grid-template-areas: 
+            "primercontainer"
+            "segundocontainer"
+           
+        ;
+    }
+
+}
+
+
+
+
+
