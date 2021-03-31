@@ -41,7 +41,7 @@ header .container span {
 .central-img-container img {
   display: block;
   width: 60vw;
-  height: 40vh;
+  height: 60vh;
   border-radius: 10px;
   border: 1rem solid white;
   -o-object-fit: cover;
@@ -556,21 +556,9 @@ span:hover {
   }
 }
 
-@media (max-height: 732px) {
-  .despacho-container h2 {
-    font-size: 1.5rem;
-  }
-  .despacho-container input {
-    padding: 1% 1% 1% 4%;
-  }
-  .despacho-container button[type="button"] {
-    padding: 4%;
-  }
-}
-
 @media (max-width: 1025) and (max-height: 1367) {
-  .despacho-container h2 {
-    color: red;
+  .form-container input {
+    padding: 0px 0px 0px 0px;
   }
 }
 

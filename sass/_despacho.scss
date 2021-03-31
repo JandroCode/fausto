@@ -180,28 +180,19 @@
 
     }
 
-    @media(max-height:732px){
-        .despacho-container{
-            h2{
-                font-size: 1.5rem;
-            }
-
-            input{
-                padding: 1% 1% 1% 4%;
-            }
-            button[type="button"]{
-                padding: 4%;
-            }
-        }
+    @media(max-height:500px){
+     
+        
+        
     }
 
     @media(max-width:1025)and(max-height:1367){
-        .despacho-container{
-            h2{
-                color: red;
+        .form-container{
+            input{
+                padding: 0px 0px 0px 0px;
             }
         }
-
+    
     }
 
 
