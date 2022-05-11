@@ -178,7 +178,7 @@ i {
   .icons-container {
     -ms-grid-columns: 90vw;
         grid-template-columns: 90vw;
-        grid-template-areas: "primercontainer" "segundocontainer" "tercercontainer" "cuartocontainer";
+        grid-template-areas: "primercontainer" "segundocontainer" "tercercontainer" "cuartocontainer";
   }
   .icons-container i {
     font-size: 3.5rem;
@@ -340,7 +340,7 @@ span:hover {
   .quienes-somos-info-container {
     -ms-grid-columns: 90vw;
         grid-template-columns: 90vw;
-        grid-template-areas: "primercontainer" "segundocontainer";
+        grid-template-areas: "primercontainer" "segundocontainer";
   }
 }
 
@@ -360,6 +360,7 @@ span:hover {
       -ms-flex-direction: column;
           flex-direction: column;
   background-position: center;
+  padding-bottom: 1%;
 }
 
 .despacho-container h2, .despacho-container p {
@@ -382,7 +383,7 @@ span:hover {
 .despacho-container::before {
   content: "";
   width: 100%;
-  height: 80vh;
+  height: 82vh;
   background: -webkit-gradient(linear, left top, left bottom, from(black), to(black));
   background: linear-gradient(black, black);
   opacity: 0.6;
@@ -400,7 +401,7 @@ span:hover {
       grid-template-columns: 1fr 1fr 1fr;
   -ms-grid-rows: 1fr 3fr 1fr;
       grid-template-rows: 1fr 3fr 1fr;
-      grid-template-areas: "inputUno inputDos inputTres" "inputCuatro inputCuatro inputCuatro" "inputCinco inputCinco inputCinco";
+      grid-template-areas: "inputUno inputDos inputTres" "inputCuatro inputCuatro inputCuatro" "inputCinco inputCinco inputCinco";
 }
 
 .form-container input::-webkit-input-placeholder {
@@ -491,6 +492,15 @@ span:hover {
   grid-area: inputCinco;
 }
 
+@media (min-width: 1500px) {
+  .form-container {
+    width: 50vw;
+  }
+  .form-container textarea {
+    height: 20vh;
+  }
+}
+
 @media (max-width: 1500px) {
   .despacho-container p {
     margin-bottom: 40px;
@@ -503,7 +513,7 @@ span:hover {
         grid-template-columns: 1fr;
     -ms-grid-rows: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
-        grid-template-areas: "inputUno"  "inputDos"  "inputTres" "inputCuatro"  "inputCinco";
+        grid-template-areas: "inputUno"  "inputDos"  "inputTres" "inputCuatro"  "inputCinco";
   }
   .form-container input {
     padding: 10px;
@@ -640,7 +650,7 @@ footer {
   footer {
     -ms-grid-columns: 90vw;
         grid-template-columns: 90vw;
-        grid-template-areas: "columnUno"  "columnDos" "columnTres";
+        grid-template-areas: "columnUno"  "columnDos" "columnTres";
   }
   footer .columnDos {
     text-align: justify;
