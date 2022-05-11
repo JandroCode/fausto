@@ -1,12 +1,15 @@
 .central-img-container{
+    display: flex;
+    justify-content: center;
     position: absolute;
-    top: 180px;
-    left: 17%;
-
-
+    left:0px;
+    right:0px;
+    top:30%;
+    margin:5px auto 30px;
+   
     img{
         display: block;
-        width: 60vw;
+        width: 50%;
         height: 60vh;
         border-radius: 10px;
         border: 1rem solid white;
@@ -14,16 +17,15 @@
     }
 }
 
-@media(max-width:1200px){
+@media(min-width:1500px){
     .central-img-container{
-        img{
-            width: 60vw;
-            height: 100%;
-
-        }
+        top:20%;
+        
+       
+        
     }
-
 }
+
 
 
 

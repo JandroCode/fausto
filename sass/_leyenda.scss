@@ -1,9 +1,7 @@
 .leyenda-container{
-    margin-top: 1%;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 400px 0 30px;
-    width: 50vw;
+
+    margin-top: 30%;
+
 
     h2{
         text-align: center;
@@ -25,37 +23,15 @@
     }
 }
 
-@media(max-width:1720px){
+@media(min-width:1500px){
     .leyenda-container{
-        margin-top: 20%;
-        padding-top: 20%;
-    
-    }
-}
+        
+    margin-top: 35%;
 
-@media(max-width:700px){
-    .leyenda-container{
-        width: 70vw;
-        hr{
-            width: 70%;
-        }
-      
-    }
-}
-
-@media(max-width:500px){
-    .leyenda-container{
-        hr{
-            width: 90%;
-            margin-bottom: 30px;
-        }
-        p{
-            font-size: 1.5rem;
-        }
-      
     }
 
 }
+
 
 
 
